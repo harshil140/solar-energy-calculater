@@ -1,0 +1,455 @@
+html{
+  
+  scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color:white;
+    
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  #navbar{
+    margin-top: 20px;
+    border-bottom: 1px solid rgba(102, 102, 102, 0.5);
+  }
+  
+  #logo-cont{
+    width: 80px;
+    margin-right: 50px;
+    
+  }
+  
+  
+  .logo{
+    width: 100%;
+    object-fit: contain;
+  }
+  #toggle{
+    color: black;
+  }
+  
+  
+  
+  /* **************Main Section******************** */
+
+
+  /* #title-cont h1{
+    color: white;
+    padding-top:150px ;
+    padding-left:50px ;
+    font-size: 60px;
+    font-family: 'Merriweather', serif;
+  }
+
+  #title-cont h2{
+    color: white;
+    padding-left:50px ;
+    font-size: 30px;
+    font-family: 'Merriweather', serif;
+  }
+  
+  #button-cont{
+    padding-left: 70px;
+    margin-top:30px ;
+  } */
+
+
+  /* #button-cont button{
+    font-family: 'Merriweather', serif;
+    color: white;
+  
+    width: 400px;
+
+  } */
+/* About Project */
+
+#about-project{
+  margin-top: 50px;
+  font-family: 'Merriweather', serif;
+}
+
+#about-project h1{
+  text-align: center;
+}
+
+#about-project h3{
+  margin-top: 30px;
+}
+
+
+
+#about-project p{
+  margin-top: 30px;
+  
+}
+
+#about-us{
+  font-family: 'Merriweather', serif;
+  background-color: rgb(143, 143, 143);
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+
+#about-us p{
+  margin-top: 30px;
+}
+
+
+#test p{
+  margin-top: 20px;
+} 
+
+#arrow {
+  font-family: 'Merriweather', serif;
+  font-size: 18px;
+  margin-top: 40px;
+  text-decoration: none;
+}
+
+#arrow p {
+text-decoration: none;
+color: black;
+}
+
+
+
+#arrow img {
+
+width: 30px;
+margin-left: 10px;
+}
+
+
+#future-work{
+  margin-top: 50px;
+  font-family: 'Merriweather', serif;
+}
+#future-work h1{
+text-align: center;
+}
+
+#future-work p{
+  margin-top: 30px;
+
+}
+
+#side-images{
+  width: 100%;
+  margin-top: 30px;
+}
+
+#future-work h3{
+  font-size: 1.5em;
+  margin-top: 30px;
+  font-family: 'Merriweather', serif;
+}
+
+#future-work img{
+  width: 100%;
+}
+
+#about-us h3{
+  font-size: 1.2em;
+  margin-top: 30px;
+  font-family: 'Merriweather', serif;
+}
+
+
+  
+  /* **************Main Section******************** */
+    
+  /* **************Calculator Section******************** */
+
+
+
+#form-cont{
+  font-family: 'Merriweather', serif;
+  margin-top: 50px;
+}
+
+#radio-group{
+  margin-bottom: 30px;
+  
+ }
+
+#radio{
+ margin-left: 30px;
+ 
+}
+
+#meter-cont{
+  font-family: 'Merriweather', serif;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 5px solid rgba(255, 166, 0, 0.89);
+  border-top: 5px solid rgba(255, 166, 0, 0.89);
+}
+
+#meter-cont h3{
+  border-bottom: 2px solid black;
+  margin-bottom: 50px;
+  font-size: 1.5em;
+  margin-top: 50px;
+  
+}
+
+#bill-cont{
+  font-family: 'Merriweather', serif;
+  margin-top: 50px;
+ 
+}
+
+
+#bill-cont h3{
+  border-bottom: 2px solid black;
+  margin-bottom: 50px;
+  font-size: 1.5em;
+  margin-top: 50px;
+}
+
+#bill-row{
+  margin-top: 10px;
+  border-bottom:2px dotted;
+}
+
+#left-col{
+  text-align: left;
+}
+#center-col{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+#right-col{
+  text-align: right;
+}
+
+#checkpoint-row{
+  margin-top: 10px;
+  border-bottom:2px solid;
+  background-color: grey;
+}
+
+#note{
+  font-family: 'Merriweather', serif;
+  margin-top: 40px;
+}
+
+#note h6{
+  font-family: 'Merriweather', serif;
+  margin-top: 40px;
+  color: rgba(255, 166, 0, 0.89);
+}
+
+#calculate-button{
+  margin-top: 50px;
+  text-align: center;
+}
+
+#stats{
+  text-align: center;
+   font-size: 2.5em;
+   font-family: 'Lobster', cursive;
+  color: rgb(0, 102, 255);  
+}
+
+#stats-line{
+  text-align: center;
+   font-size: 1em;
+
+  color: rgb(0, 102, 255);  
+}
+
+#login-register{
+  margin-top: 50px;
+  font-family: 'Merriweather', serif;
+}
+
+
+
+
+  /* ************** Media Query ******************** */
+
+  @media(min-width:768px){
+    #items{
+      margin-left: 0px;
+      padding: 0px;
+    }
+    
+    #items a{
+      margin-right: 50px;
+      color: black;
+      font-family: 'Days One', sans-serif;
+      text-decoration: none;
+      font-size: 20px;
+      font-family: 'Montserrat', sans-serif;
+    }
+  
+  
+    
+    #items a:hover{
+      color:rgb(255, 187, 0);
+    }
+
+
+
+    #img-cont{
+      width: 100%;
+      padding-left: 0px;
+      padding-right: 0px;
+      height: 850px;
+      background-image: url('main.jpg');
+      background-repeat:no-repeat;
+      background-size:100% auto;
+    }
+  
+  
+  
+    #title-cont h1{
+      color: white;
+      padding-top:150px ;
+      padding-left:50px ;
+      font-size: 60px;
+      font-family: 'Merriweather', serif;
+    }
+  
+    #title-cont h2{
+      color: white;
+      padding-left:50px ;
+      font-size: 30px;
+      font-family: 'Merriweather', serif;
+    }
+    
+    #button-cont{
+      padding-left: 70px;
+      margin-top:30px ;
+    }
+  
+  
+    #button-cont button{
+      font-family: 'Merriweather', serif;
+      color: white;    
+      width: 400px;
+  
+  }
+
+  #cal-cont {
+    font-family: 'Merriweather', serif;
+      margin-top: 50px;
+      margin-left: 50px;
+      }
+  #cal-cont2 {
+        margin-left: 50px;
+        }
+  
+   #cal-cont h1{
+    color:rgb(56, 155, 56) ;
+    font-size: 2em;
+   }
+  
+   #cal-cont2 p{
+    color:black ;
+    font-size: 1.1em;
+    margin-top:40px ;
+  }
+}
+
+
+@media(max-width:768px){
+  #nav-items{
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  #items{
+    margin-left: 0px;
+    padding: 0px;
+  }
+  
+  #items a{
+    margin-right: 50px;
+    color: black;
+    font-family: 'Days One', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+
+  
+  #items a:hover{
+    color:rgb(255, 187, 0);
+  }
+
+
+
+  #img-cont{
+    width: 100%;
+  }
+
+
+  #cal-cont {
+    font-family: 'Merriweather', serif;
+      margin-top: 50px;
+      }
+
+   #cal-cont h1{
+    color:rgb(56, 155, 56) ;
+    font-size: 2em;
+   }
+  
+   #cal-cont2 p{
+    color:black ;
+    font-size: 1.1em;
+    margin-top:40px ;
+  }
+
+
+
+  #title-cont h1{
+    color: black;
+    padding-top:50px ;
+ 
+    font-size: 60px;
+    font-family: 'Merriweather', serif;
+  }
+
+  #title-cont h2{
+    color: black;
+
+    font-size: 30px;
+    font-family: 'Merriweather', serif;
+  }
+  
+  #button-cont{
+   
+    margin-top:30px ;
+    margin-bottom: 50px;
+  }
+
+
+  #button-cont button{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: white;
+}
+}
